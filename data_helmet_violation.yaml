@@ -1,0 +1,7 @@
+path: D:/KHOA_HOC_MAY_TINH/HK2-2025-2026/Nhap_Mon_Thi_Giac_MT/DO_AN/dataset/helmet_violation_dataset
+train: images/train
+val: images/val
+
+names:
+  0: helmet
+  1: no_helmet
