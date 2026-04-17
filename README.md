@@ -1,12 +1,4 @@
-# YOLO11 Train/Test Source
 
-Thư mục này dùng để quản lý source train và test model YOLO11.
-
-## Cấu trúc
-- `data_helmet_violation.yaml`: file dataset config (đã chỉnh theo đường dẫn máy bạn).
-- `train_yolo11.py`: script train YOLO11.
-- `test_yolo11.py`: script đánh giá + predict.
-- `requirements.txt`: thư viện cần cài.
 
 ## Cài thư viện
 ```bash
