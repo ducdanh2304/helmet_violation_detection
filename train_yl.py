@@ -34,11 +34,7 @@ model.train(
     # Mosaic — ghép 4 ảnh, giúp detect vật thể nhỏ tốt hơn
     mosaic=1.0,      # bật 100%
 
-    # Che khuất ngẫu nhiên — mô phỏng xe bị che bởi xe khác
-    erasing=0.4,     # xóa ngẫu nhiên 1 vùng nhỏ
 
-    # Perspective — mô phỏng biến dạng fisheye ở rìa ảnh
-    perspective=0.0002,
 )
 
 
