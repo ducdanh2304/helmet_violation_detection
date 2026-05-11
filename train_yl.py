@@ -8,9 +8,9 @@ def main() -> None:
     # Train
 model.train(
     data="data_helmet_violation.yaml",
-    epochs=100,
+    epochs=200,
     imgsz=640,
-    batch=16,
+    batch=8,
     project="runs_yolo11",
     name="helmet_violation",
 
