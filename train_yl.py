@@ -6,10 +6,10 @@ def main() -> None:
     model = YOLO("yolo11n.pt")
 
     # Train
-model.train(
+    model.train(
     data="data_helmet_violation.yaml",
     epochs=200,
-    imgsz=640,
+    imgsz=960,
     batch=8,
     project="runs_yolo11",
     name="helmet_violation",
